@@ -1,0 +1,11 @@
+wingseg segment \
+--dataset "/Users/alicedecugis/Desktop/Papillons/output/remove_background" \
+--outputs-base-dir "/Users/alicedecugis/Desktop/Papillons/output/sam_butter" \
+--visualize-segmentation \
+--crop-by-class \
+--size 512 \
+--resize-mode pad \
+--padding-color white \
+--remove-crops-background \
+--remove-full-background \
+--background-color white
